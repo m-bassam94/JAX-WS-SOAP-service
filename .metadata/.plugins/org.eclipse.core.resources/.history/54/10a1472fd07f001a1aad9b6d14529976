@@ -1,0 +1,10 @@
+import employeemanagement.services.EmployeeServiceImplService;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		EmployeeServiceImpl webservice= new EmployeeServiceImplService().getEmployeeServiceImplPort()
+	}
+
+}
